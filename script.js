@@ -19,3 +19,16 @@ input.addEventListener("change", () => {
 checkbox.addEventListener("change", () => {
   document.body.classList.toggle("dark")
 })
+
+var iptEls = document.querySelectorAll('input');
+[].forEach.call(inps, function(iptEl) {
+    iptEl.onchange = function(e) {
+        console.log(this.files);
+    };
+});
+
+// SEO
+    // تحديث الكلمات الرئيسية الميتا باستخدام JavaScript
+    const dynamicKeywords = "HTML, CSS, JavaScript, Web Development";
+    const metaKeywordsTag = document.getElementById('metaKeywords');
+    metaKeywordsTag.setAttribute('content', dynamicKeywords);

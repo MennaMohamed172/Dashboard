@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+!<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -74,16 +74,16 @@
 "https://media.geeksforgeeks.org/wp-content/uploads/20221210183320/5.png"
 							class="nav-img"
 							alt="report">
-							<a href="tags.html" style="color: #000; text-decoration: none;"><h3> Tags</h3></a>	
+				<a href="tags.html" style="text-decoration: none; color: #000;"><h3> Tags</h3></a>		
 					</div>
 
 					<div class="nav-option option4">
 						<img src="/imgs/data-classification.png"
 							class="nav-img"
 							alt=" classification" style="color: black;">
-                            <a href="category.html" style="color: black; text-decoration: none;"> 	
-                                <h3 >Category</h3>
-                            </a>
+					<a href="category.html" style="color: black; text-decoration: none;"> 	
+                        <h3 >Category</h3>
+                    </a>
 					</div>
 
 					<div class="nav-option option5">
@@ -91,21 +91,23 @@
 "https://media.geeksforgeeks.org/wp-content/uploads/20221210183323/10.png"
 							class="nav-img"
 							alt="blog">
-                            <a href="addnewuse.html" style="text-decoration: none; color: #000;" > 	<h3> Users</h3></a>
+                            <a href="addnewuse.html" style="text-decoration: none; color: #000;" > 	
+                                <h3> Users</h3></a>
 					</div>
 					<div class="nav-option option5">
 						<img src="/imgs/document.png"
 							class="nav-img"
 							alt="blog">
-							<a href="addnewpage.html" style="text-decoration: none; color: #000;" > 
-                                	<h3 style="font-size: 22px;"> Add Pages</h3></a>
+							<a href="addnewpage.html" style="text-decoration: none; color: #000; font-size: 22;" > 
+                                	<h3> Add Pages</h3></a>
 					</div>
 					<div class="nav-option option5">
 						<img src="/imgs/file-upload.png"class="nav-img"alt="blog">
 						<a href="addmedia.html" style="text-decoration: none; color: #000;" > 	
-						   <h3 style="font-size: 20px;"> Upload media</h3> 
+						   <h3 style="font-size: 22px;"> Upload media</h3> 
 					   </a>
 				   </div>
+
 					<div class="nav-option option6">
 						<img src=
 "https://media.geeksforgeeks.org/wp-content/uploads/20221210183320/4.png"
@@ -139,54 +141,23 @@
 						alt="search-button">
 				</div>
 			</div>
-            <h2>Add New User</h2>
+            <h2>Add New Category</h2>
             <form>
                 <div class="form-group">
-                    <label>User Name
+                    <label> Name
                     </label>
-                    <input type="text" class="form-control" placeholder="User Name" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Enter Your Email">
+                    <input type="text" class="form-control" placeholder="Name" required>
                   </div>
               <div class="form-group">
-                <label for="text">First Name</label>
-                <input type="text" class="form-control" id="Article" placeholder="ُEnter Your First Name" >
+                <label for="text">permalink</label>
+                <input type="text" class="form-control" id="Article" placeholder="ُpermalink" >
               </div>
-              <div class="form-group">
-                <label for="text">Last Name</label>
-                <input type="text" class="form-control" id="Article" placeholder="ُEnter Your  Name" >
-              </div>
-              <div class="form-group">
-                <label for="text">Website</label>
-                <input type="text" class="form-control" id="Article" placeholder="ُEnter website" >
-              </div>
-              
-              <div class="form-group">
-                <label for="pwd">Password</label>
-
-                <input type="password" class="form-control" id="pwd" placeholder="Enter Your Password">
-              </div> 
-			  <div class="form-group">
-				<label for="category">Roles</label>
-				<br>
-				<select name="category" id="category" style="color: blue;">
-	  <option value="-1">admin</option>
-	  
-	  
-	  <option class="level-1" value="3484">&nbsp;&nbsp;&nbsp;User</option>
-	  <option class="level-0" value="1986">تصحيح النظر بالليزر</option>
-	  <option class="level-0" value="1975">تصحيح النظر بعد عملية المياه البيضاء</option>
-	  <option class="level-0" value="4008">جفن العين</option>
-	  <option class="level-0" value="3688">سديلة القرنية</option>
-	  <option class="level-0" value="204">شروط عملية الليزك</option>
-	  <option class="level-0" value="1972">طبيب تصحيح نظر</option>
-
-	  
-				</select>
-			  </div>
-              <button type="submit" class="btn" style="background-color: #5500cb; color: white; width: 100px; height: 48px;">Submit</button>
+             
+            <div class="form-group">
+                <label for="comment">Description</label>
+                <textarea class="form-control" rows="5" id="comment" placeholder="Enter Your Description" required></textarea>
+              </div>  
+              <button type="submit" class="btn" style="background-color: #5500cb; color: white; width: 187px; height: 48px;">Add New Tags</button>
             </form>
 	</div>
     
